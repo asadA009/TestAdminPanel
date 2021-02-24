@@ -6,4 +6,3 @@ class AuthorAdmin(admin.ModelAdmin):
     
 admin.site.register(confrence,AuthorAdmin)
 
-# Register your models here.
