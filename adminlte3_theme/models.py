@@ -5,7 +5,7 @@ class confrence(models.Model):
     confrence_ID=models.CharField(max_length=20,default='')
     date=models.DateTimeField(auto_now_add=False)
     venu=models.CharField(max_length=50, default='')
-    #image=models.ImageField(upload_to="admin-lte/images",default='')
+    image=models.ImageField(upload_to="admin-lte/images",default='')
     confrence_Overview=RichTextField(blank=False,null=False)
     register=RichTextField(blank=False,null=False)
     travel_information=RichTextField(blank=False,null=False)
