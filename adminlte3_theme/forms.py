@@ -3,5 +3,5 @@ from .models import confrence
 class confrenceForm(forms.ModelForm):
     class Meta:
         model=confrence
-        fields=('name','city','roll')
+        fields=('id','confrence_ID','date','venu','image','confrence_Overview','registration','travel_information')
     
