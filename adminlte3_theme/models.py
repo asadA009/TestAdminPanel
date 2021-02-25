@@ -7,5 +7,5 @@ class confrence(models.Model):
     venu=models.CharField(max_length=50, default='')
     #image=models.ImageField(upload_to="admin-lte/images",default='')
     confrence_Overview=RichTextField(blank=False,null=False)
-    registration=RichTextField(blank=False,null=False)
+    register=RichTextField(blank=False,null=False)
     travel_information=RichTextField(blank=False,null=False)
